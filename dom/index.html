@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1 id="header">heyy</h1>
+  <h1 class="header">heyy world</h1>
+
+
+  <h1 id="header">trivandrum</h1>
+
+  <img src="image.jpeg" alt="">
+
+  <script>
+
+   //innerhtml
+   document.getElementById('header').innerHTML = "HELO" ; //TO EDIT THE  text  bu id
+   document.getElementsByClassName('header')[0].innerHTML = "heloo world" ; // to edit in class
+   document.getElementsByTagName('h1')[0].innerHTML = "WORLD " ;  //edit using tagname by index 
+
+   //css
+   document.getElementById('header').style.fontSize = "50px";
+   document.getElementById('header').style.cursor="pointer";
+   document.getElementById('header').style.display="block";
+   document.getElementById('header').style.color="red";
+   document.getElementById('header').scr ="image.jpeg";
+
+  </script>
+</body>
+</html>
